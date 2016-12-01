@@ -19,6 +19,21 @@ html {
   box-sizing: inherit;
 }
 
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  margin: 0;
+  padding: 0;
+}
+
 @media only screen and (min-width: 20em) {
 
   html {
@@ -54,6 +69,8 @@ html {
   }
 
   body {
+    margin: 0;
+    padding: 0;
     line-height: 0;
   }
 
@@ -74,13 +91,18 @@ html {
 
 @media only screen and (min-width: 38em) {
 
+  html {
+    margin: 0;
+    padding: 0;
+  }
+
   body {
     margin: 0;
     padding: 0;
   }
 
   img {
-    float:left;
+    float: left;
   }
 
   img:nth-child(5) {
@@ -101,6 +123,11 @@ html {
 
 @media only screen and (min-width: 60em) {
 
+  html {
+    margin: 0;
+    padding: 0;
+  }
+
   body {
     margin: 0;
     padding: 0;
@@ -120,11 +147,6 @@ html {
   img:nth-child(4),
   img:nth-child(5) {
     width: 33.3333%;
-  }
-
-  img:nth-child(4)
-  img:nth-child(5) {
-    float: right;
   }
 
   img:nth-child(5) {
