@@ -17,3 +17,11 @@ html {
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+@media only screen and (min-width: 20em) {
+
+  html {
+    margin: 0;
+    padding: 0;
+  }
